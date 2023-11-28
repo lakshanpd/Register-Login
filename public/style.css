@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(225, 223, 219);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+
+
+/* Apply some basic styling to the container */
+div {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form labels and inputs */
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  
+h1 {
+    text-align: center;
+    padding: 100px;  
+
+}
+
+
